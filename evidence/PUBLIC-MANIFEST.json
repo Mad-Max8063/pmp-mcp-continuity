@@ -1,0 +1,25 @@
+{
+  "scope": "SHA-256 of the public publication files, excluding this manifest",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "453e483fee7b3aefd27293c6cb7101dfd4f8390c030363b1d00bb9f96ce1afcb",
+      "bytes": 2964
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c3d569893ec6666b2125480a5ae1de7289ba6e333b91731a221a508102478a28",
+      "bytes": 1068
+    },
+    {
+      "path": "docs/CASE-STUDY.md",
+      "sha256": "504d83bedebe401815b52f8ea9c4f6594c8f21fd2205b461eb35d76c35635c97",
+      "bytes": 4916
+    },
+    {
+      "path": "evidence/PUBLIC-EVIDENCE.json",
+      "sha256": "35f39367c15dbc30948ce1a802b0ab7f9f637a8bcc09e4a2676055d8b10fc8b9",
+      "bytes": 1655
+    }
+  ]
+}

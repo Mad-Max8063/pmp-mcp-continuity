@@ -1,0 +1,39 @@
+{
+  "case": "Local Codex-Antigravity MCP mailbox round trip",
+  "date": "2026-11-14",
+  "source_audit_sha256": "8059440c9a356ff3fe04fea67cf8e813ae553e7abe59870abbcadd9ddcba31b8",
+  "transfers": [
+    {
+      "id": "cc4b423b0b8043a5813bf90b47f2f0c9",
+      "owner": "codex",
+      "recipient": "antigravity",
+      "kind": "task",
+      "parent": null,
+      "status": "COMPLETED",
+      "package_id": "fd08eaa9-5662-480c-b06d-7ca1fee5b366",
+      "package_sha256": "9b8c99d938d9508f87b08c226af8c4c14aa2a1da36da1ccdae132409702f0d75",
+      "receipt_sha256": "90649390b7061c5da8808f8a1458ec59b8771eb0d562c9d9e4bd6a54c59cfa0b",
+      "files_verified": 7,
+      "package_integrity": "PASS",
+      "workspace_match": "PASS"
+    },
+    {
+      "id": "10ea6a1dafad42a9be97c685a550d99e",
+      "owner": "antigravity",
+      "recipient": "codex",
+      "kind": "result",
+      "parent": "cc4b423b0b8043a5813bf90b47f2f0c9",
+      "status": "COMPLETED",
+      "package_id": "38f0843d-be8e-476a-ae5a-c35500000665",
+      "package_sha256": "2bed3ef065106a55433f45537ffb08f95142033d764f51c5e857b96020b74c5e",
+      "receipt_sha256": "c36eedc3f8999d56d6b710a42776e00699fdab3f1785940d99f5b51ccb990c50",
+      "files_verified": 6,
+      "package_integrity": "PASS",
+      "workspace_match": "PASS"
+    }
+  ],
+  "identity_verified": false,
+  "semantic_truth_verified": false,
+  "project_tests_independently_rerun_by_codex": false,
+  "disclosure": "Unsigned selected metadata. Original private packages, receipts and source code are not distributed here. Hashes identify original bytes; this sanitized summary is not those artifacts."
+}
